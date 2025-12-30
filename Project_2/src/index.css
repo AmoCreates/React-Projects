@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+     font-family: "Poppins", sans-serif;
+     font-style: normal;
+     box-sizing: border-box;
+     border:none;
+     margin:0px;
+     padding:0px;
+     
+}
+
+.screen {
+    height:100vh;
+    width:100vw;
+}
+
+.MainPage {
+    height:100vh;
+    width:100vw;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding:3vh 3vw;
+    background-color: white;
+    height: 10%;
+}
+
+.navbar button, p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar button {
+    background:rgb(0, 0, 0);
+    color:white;
+    padding:8px 10px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar p {
+    background:rgba(128, 128, 128, 0.459);
+    letter-spacing: 2px;
+    padding:8px 10px;
+    border-radius: 20px;
+}
+
+.Interface {
+    height:90%;
+    width:100vw;
+    display:flex;
+}
+
+.Left {
+    height:100%;
+    width:30%;
+    background:white;
+    padding:5vh 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.Left span {
+    background-color: rgba(128, 128, 128, 0.527);
+    padding:0px 5px;
+    border-radius: 45px;
+    line-height: 4px;
+}
+
+.Left h1 {
+    line-height: 70px;
+    font-size: 4rem;
+    font-weight: 650;
+    margin-bottom: 2rem;
+}
+
+.Left p {
+    font-size: 1.7rem;
+}
+
+.Right {
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100%;
+    width:70%;
+    padding-bottom:1.5rem;
+}
+
+.Box {
+    position: relative;
+    height:92%;
+    width:28%;
+    background-color: rgba(0, 38, 255, 0.829);
+    border-radius: 1.7rem;
+    overflow: hidden;
+
+}
+
+.Box img {
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.Box .img-content {
+    position: absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    padding:10%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Box .img-content .content {
+    
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px black;
+    
+}
+
+.index {
+    background-color: white;
+    width:2.5rem;
+    height:2.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content button {
+    background-color: rgb(153, 0, 255);
+    border-radius: 25px;
+    width:60%;
+    padding:0px 3px;
+    font-size: 1.5rem;
+    cursor:pointer;
+}
+
+.content #btn {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.content connect {
+    width:1rem;
+    height:0.7rem;
+    background-color:  rgb(153, 0, 255);
+}
+
+.content arrow {
+    background-color:  rgb(153, 0, 255);
+    border-radius: 50%;
+    padding:0.5rem;
+    cursor:pointer;
+}
